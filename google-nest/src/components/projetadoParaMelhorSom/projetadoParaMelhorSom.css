@@ -1,0 +1,26 @@
+.projetado-para-melhorar-som {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.projetado-para-melhorar-som__titulo {
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  font-size: 72px;
+  color: #423f3f;
+  font-family: 'Google Sans', 'Roboto', 'Arial', sans-serif;
+  /* margin-bottom: -74vh; */
+  /* opacity: var(--db-title-opacity); */
+  position: sticky;
+  text-align: center;
+  top: 0;
+  /* -webkit-transform: translateY(var(--db-title-y)); */
+  /* transform: translateY(var(--db-title-y)); */
+  will-change: opacity, transform;
+}

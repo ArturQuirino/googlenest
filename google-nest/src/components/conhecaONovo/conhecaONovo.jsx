@@ -1,10 +1,7 @@
 import React from 'react';
 import { Component } from 'react';
 import './conhecaONovo.css';
-import {
-  isElementInViewport,
-  isPartOfElementInViewport,
-} from '../../shared/utils';
+import { isPartOfElementInViewport } from '../../shared/utils';
 
 function adicionarClasseNoScroll(classeElemento) {
   var element = document.querySelector(classeElemento);
@@ -29,7 +26,13 @@ class ConhecaONovoa extends Component {
   render() {
     return (
       <section className="conheca-o-novo">
-        <video playsInline class="conheca-o-novo__video" muted loop autoPlay>
+        <video
+          playsInline
+          className="conheca-o-novo__video"
+          muted
+          loop
+          autoPlay
+        >
           <source
             type="video/mp4"
             src="https://storage.googleapis.com/mannequin/blobs/8f3dfe1c9c4f953c8987087f055e2ac8.mp4"
