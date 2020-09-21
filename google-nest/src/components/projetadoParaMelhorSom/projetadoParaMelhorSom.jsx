@@ -35,9 +35,6 @@ function mudarCorteNoScroll(classeElemento) {
     } else if (rect.top > window.innerHeight) {
       document.documentElement.style.setProperty('--clip1', '100%');
     } else {
-      element.style.opacity =
-        (window.innerHeight - rect.top) / window.innerHeight;
-
       document.documentElement.style.setProperty(
         '--clip1',
         100 - ((window.innerHeight - rect.top) * 100) / window.innerHeight + '%'
