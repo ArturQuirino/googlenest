@@ -34,9 +34,10 @@
 .projetado-para-melhorar-som__container-todas-imagens {
   left: 0;
   height: 100vh;
-  position: sticky;
+  position: relative;
   top: 0;
   width: 100%;
+  margin-top: -25vh;
 }
 
 .projetado-para-melhorar-som__container1-imagem {
