@@ -33,7 +33,6 @@
 
 .projetado-para-melhorar-som__container-todas-imagens {
   left: 0;
-  height: 100vh;
   position: relative;
   top: 0;
   width: 100%;
@@ -95,4 +94,32 @@
   height: auto;
   position: relative;
   padding-top: 112.5%;
+}
+
+.projetado-para-melhorar-som__container-textos {
+  margin-top: -50vh;
+  height: 300vh;
+  position: relative;
+  z-index: 10;
+}
+
+.projetado-para-melhorar-som__container-texto-unico {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  text-align: left;
+  width: 100%;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  max-width: 30vw;
+}
+
+.projetado-para-melhorar-som__texto--titulo {
+  font-size: 34px;
+  line-height: 44px;
+  font-weight: 600;
+  margin-bottom: 12px;
+
+  text-align: left;
 }

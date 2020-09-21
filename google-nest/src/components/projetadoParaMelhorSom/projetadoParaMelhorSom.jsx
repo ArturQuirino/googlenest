@@ -77,6 +77,24 @@ class ProjetadoParaMelhorSom extends Component {
               </div>
             </div>
           </div>
+          <div className="projetado-para-melhorar-som__container-textos">
+            <div className="projetado-para-melhorar-som__container-texto-unico">
+              <span className="projetado-para-melhorar-som__texto--titulo">
+                Som incrível
+              </span>
+            </div>
+            <div className="projetado-para-melhorar-som__container-texto-unico">
+              <span className="projetado-para-melhorar-som__texto--titulo">
+                Fabricado pensando no meio ambiente.
+              </span>
+            </div>
+
+            <div className="projetado-para-melhorar-som__container-texto-unico">
+              <span className="projetado-para-melhorar-som__texto--titulo">
+                Reconhecimento de voz
+              </span>
+            </div>
+          </div>
         </div>
       </div>
     );
