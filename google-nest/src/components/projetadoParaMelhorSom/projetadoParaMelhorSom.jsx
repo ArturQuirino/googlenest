@@ -46,10 +46,35 @@ function mudarCorteNoScroll(classeElemento) {
   window.addEventListener('scroll', mudarcorte);
 }
 
+function mudarCorteNoScroll2(classeElemento) {
+  var element = document.querySelector(classeElemento);
+
+  function mudarcorte() {
+    const rect = element.getBoundingClientRect();
+    if (rect.top > window.innerHeight) {
+      document.documentElement.style.setProperty('--clip2', '100%');
+    } else {
+      document.documentElement.style.setProperty(
+        '--clip2',
+        200 +
+          100 -
+          ((window.innerHeight - rect.top) * 100) / window.innerHeight +
+          '%'
+      );
+    }
+  }
+
+  window.addEventListener('load', mudarcorte);
+  window.addEventListener('scroll', mudarcorte);
+}
+
 class ProjetadoParaMelhorSom extends Component {
   componentDidMount() {
     mudarOpacidadeNoScroll('.projetado-para-melhorar-som__titulo');
     mudarCorteNoScroll('.projetado-para-melhorar-som__container2-imagem2');
+    mudarCorteNoScroll2(
+      '.projetado-para-melhorar-som__container-todas-imagens'
+    );
   }
   render() {
     return (
@@ -74,6 +99,12 @@ class ProjetadoParaMelhorSom extends Component {
             <div className="projetado-para-melhorar-som__container2-imagem2">
               <div className="projetado-para-melhorar-som__container-imagem">
                 <div className="projetado-para-melhorar-som__imagem-interna"></div>
+              </div>
+            </div>
+
+            <div className="projetado-para-melhorar-som__container2-imagem3">
+              <div className="projetado-para-melhorar-som__container-imagem">
+                <div className="projetado-para-melhorar-som__imagem-externa2"></div>
               </div>
             </div>
           </div>
