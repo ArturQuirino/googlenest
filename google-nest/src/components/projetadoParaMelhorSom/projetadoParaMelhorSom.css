@@ -78,6 +78,19 @@
   overflow: hidden;
 }
 
+.projetado-para-melhorar-som__container2-imagem4 {
+  visibility: visible;
+  z-index: 4;
+  clip-path: inset(var(--clip3) 0 0 0);
+  background-color: #f3f3f3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
 .projetado-para-melhorar-som__container-imagem {
   max-width: 70vh;
   width: 50%;
@@ -111,6 +124,15 @@
 
 .projetado-para-melhorar-som__imagem-externa2 {
   background-image: url('https://lh3.googleusercontent.com/ZELhAphF0iQH6vIxAbnR8zTJ9H25D8Mfv4lNRuXtHCCbr_80yOOkU1igQoin9Y10KguDcXyTJ4czQH5ROFGixyc=rw-w740');
+  background-position: top;
+  background-size: cover;
+  height: auto;
+  position: relative;
+  padding-top: 112.5%;
+}
+
+.projetado-para-melhorar-som__imagem-interna2 {
+  background-image: url(https://lh3.googleusercontent.com/GJtRVlnBNudenQkwuHldWXXxLdYSesCIqs7FkWNpd22vQNqFI8tyq3AJD-hWuFHIUXSH4fBiFgsxWBLjCP4M=rw-w740);
   background-position: top;
   background-size: cover;
   height: auto;
