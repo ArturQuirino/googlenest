@@ -34,7 +34,7 @@
 
 .conheca-o-novo__video.in-viewport {
   filter: brightness(0.4);
-  animation: diminuir-brilho 2s;
+  animation: diminuir-brilho 3s;
 }
 
 .conheca-o-novo__container-descricao {
