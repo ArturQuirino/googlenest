@@ -136,5 +136,56 @@
 }
 
 .faca-streaming__container-parte3 {
+  height: 200vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  justify-content: center;
+  text-align: center;
+}
+
+.faca-streaming__container2-parte3 {
+  position: sticky;
+  top: 60px;
   height: 100vh;
+  width: 100vw;
+}
+
+.faca-streaming__parte3__titulo {
+  font-size: 38px;
+  line-height: 50px;
+}
+
+.faca-streamming__container-imagem3 {
+  position: relative;
+  padding-top: 60px;
+}
+
+.faca-streamming__container2-imagem3 {
+  height: calc(100vh - 230px);
+  justify-content: flex-end;
+  max-width: 600px;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  z-index: 10;
+}
+
+.faca-streamming__imagem3 {
+  background-image: url(https://lh3.googleusercontent.com/WNE1hpG1bJjWhUYWezGz5YihJFUU8Ed1oZZT1QyCYS9PrYF3FLaYN1YfCwZr9sTDivXWOcjigqD8Kx0R3QLlBww=rw-w640);
+  background-position: top;
+  background-size: cover;
+  height: auto;
+  padding-top: 106.25%;
+  position: relative;
+  width: 100%;
+}
+
+.faca-streamming__parte3_scrollspace {
+  height: 100vh;
+  background-color: black;
 }

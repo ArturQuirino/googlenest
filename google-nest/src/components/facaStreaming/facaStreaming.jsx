@@ -112,7 +112,19 @@ class FacaStreaming extends Component {
             <div className="faca-streaming__parte2__parceiro">Coisas</div>
           </div>
         </div>
-        <div className="faca-streaming__container-parte3">TESTE</div>
+        <div className="faca-streaming__container-parte3">
+          <div className="faca-streaming__container2-parte3">
+            <h2 className="faca-streaming__parte3__titulo">
+              Basta dizer "Ok Google..."
+            </h2>
+            <div className="faca-streamming__container-imagem3">
+              <div className="faca-streamming__container2-imagem3">
+                <div className="faca-streamming__imagem3"></div>
+              </div>
+            </div>
+          </div>
+          <div className="faca-streamming__parte3_scrollspace"></div>
+        </div>
       </section>
     );
   }
