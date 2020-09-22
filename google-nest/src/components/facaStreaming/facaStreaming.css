@@ -195,6 +195,11 @@
   font-size: 16px;
   line-height: 20px;
   padding: 12px;
+  opacity: 0;
+  transform: scale(0);
+  transition: opacity 1200ms cubic-bezier(0.4, 0, 0.2, 1),
+    transform 1200ms cubic-bezier(0.4, 0, 0.2, 1),
+    -webkit-transform 1200ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .faca-streamming__parte3__texto2 {
@@ -207,6 +212,11 @@
   font-size: 16px;
   line-height: 20px;
   padding: 12px;
+  opacity: 0;
+  transform: scale(0);
+  transition: opacity 1200ms cubic-bezier(0.4, 0, 0.2, 1),
+    transform 1200ms cubic-bezier(0.4, 0, 0.2, 1),
+    -webkit-transform 1200ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .faca-streamming__parte3__texto3 {
@@ -219,6 +229,11 @@
   font-size: 16px;
   line-height: 20px;
   padding: 12px;
+  opacity: 0;
+  transform: scale(0);
+  transition: opacity 1200ms cubic-bezier(0.4, 0, 0.2, 1),
+    transform 1200ms cubic-bezier(0.4, 0, 0.2, 1),
+    -webkit-transform 1200ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .faca-streamming__parte3__texto4 {
@@ -231,6 +246,81 @@
   font-size: 16px;
   line-height: 20px;
   padding: 12px;
+  opacity: 0;
+  transform: scale(0);
+  transition: opacity 1200ms cubic-bezier(0.4, 0, 0.2, 1),
+    transform 1200ms cubic-bezier(0.4, 0, 0.2, 1),
+    -webkit-transform 1200ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.faca-streamming__parte3__texto5 {
+  background-color: white;
+  color: black;
+  position: absolute;
+  top: 75%;
+  left: 8%;
+  border-radius: 32px;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 12px;
+  opacity: 0;
+  transform: scale(0);
+  transition: opacity 1200ms cubic-bezier(0.4, 0, 0.2, 1),
+    transform 1200ms cubic-bezier(0.4, 0, 0.2, 1),
+    -webkit-transform 1200ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.faca-streamming__parte3__texto6 {
+  background-color: white;
+  color: black;
+  position: absolute;
+  top: 65%;
+  right: 9%;
+  border-radius: 32px;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 12px;
+  opacity: 0;
+  transform: scale(0);
+  transition: opacity 1200ms cubic-bezier(0.4, 0, 0.2, 1),
+    transform 1200ms cubic-bezier(0.4, 0, 0.2, 1),
+    -webkit-transform 1200ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.in-viewport .faca-streamming__parte3__texto1 {
+  opacity: 1;
+  transform: scale(1);
+  transition-delay: 0.15s;
+}
+
+.in-viewport .faca-streamming__parte3__texto2 {
+  opacity: 1;
+  transform: scale(1);
+  transition-delay: 0.3s;
+}
+
+.in-viewport .faca-streamming__parte3__texto3 {
+  opacity: 1;
+  transform: scale(1);
+  transition-delay: 0.45s;
+}
+
+.in-viewport .faca-streamming__parte3__texto4 {
+  opacity: 1;
+  transform: scale(1);
+  transition-delay: 0.6s;
+}
+
+.in-viewport .faca-streamming__parte3__texto5 {
+  opacity: 1;
+  transform: scale(1);
+  transition-delay: 0.6s;
+}
+
+.in-viewport .faca-streamming__parte3__texto6 {
+  opacity: 1;
+  transform: scale(1);
+  transition-delay: 0.6s;
 }
 
 .faca-streamming__parte3_scrollspace {

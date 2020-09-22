@@ -68,10 +68,27 @@ function adicionarClasseInViewportParte2() {
   window.addEventListener('scroll', mudarOpacidadeETranslateY);
 }
 
+function adicionarClasseInViewportParte3() {
+  const element = document.querySelector('.faca-streaming__container-parte3');
+
+  function mudarOpacidadeETranslateY() {
+    const rect = element.getBoundingClientRect();
+    if (rect.top < window.innerHeight / 2) {
+      element.classList.add('in-viewport');
+    } else {
+      element.classList.remove('in-viewport');
+    }
+  }
+
+  window.addEventListener('load', mudarOpacidadeETranslateY);
+  window.addEventListener('scroll', mudarOpacidadeETranslateY);
+}
+
 class FacaStreaming extends Component {
   componentDidMount() {
     mudarOpacidadeEPosicaoNoScroll();
     adicionarClasseInViewportParte2();
+    adicionarClasseInViewportParte3();
   }
   render() {
     return (
@@ -133,6 +150,12 @@ class FacaStreaming extends Component {
                 </div>
                 <div className="faca-streamming__parte3__texto4">
                   Tocar minha playlist de hora do jantar
+                </div>
+                <div className="faca-streamming__parte3__texto5">
+                  Ouvir as últimas notícias
+                </div>
+                <div className="faca-streamming__parte3__texto6">
+                  Tocar minha playlist de treino
                 </div>
               </div>
             </div>
