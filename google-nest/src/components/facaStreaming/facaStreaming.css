@@ -185,6 +185,54 @@
   width: 100%;
 }
 
+.faca-streamming__parte3__texto1 {
+  background-color: white;
+  color: black;
+  position: absolute;
+  top: 10%;
+  right: 12%;
+  border-radius: 32px;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 12px;
+}
+
+.faca-streamming__parte3__texto2 {
+  background-color: white;
+  color: black;
+  position: absolute;
+  top: calc(50% - 170px);
+  left: 10%;
+  border-radius: 32px;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 12px;
+}
+
+.faca-streamming__parte3__texto3 {
+  background-color: white;
+  color: black;
+  position: absolute;
+  top: 40%;
+  left: 67%;
+  border-radius: 32px;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 12px;
+}
+
+.faca-streamming__parte3__texto4 {
+  background-color: white;
+  color: black;
+  position: absolute;
+  top: 60%;
+  right: 66%;
+  border-radius: 32px;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 12px;
+}
+
 .faca-streamming__parte3_scrollspace {
   height: 100vh;
   background-color: black;

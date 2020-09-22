@@ -121,6 +121,20 @@ class FacaStreaming extends Component {
               <div className="faca-streamming__container2-imagem3">
                 <div className="faca-streamming__imagem3"></div>
               </div>
+              <div className="faca-streamming__parte3__container-textos">
+                <div className="faca-streamming__parte3__texto1">
+                  Aumente o volume
+                </div>
+                <div className="faca-streamming__parte3__texto2">
+                  Tocar música no Spotify
+                </div>
+                <div className="faca-streamming__parte3__texto3">
+                  Tocar música de Sia
+                </div>
+                <div className="faca-streamming__parte3__texto4">
+                  Tocar minha playlist de hora do jantar
+                </div>
+              </div>
             </div>
           </div>
           <div className="faca-streamming__parte3_scrollspace"></div>
