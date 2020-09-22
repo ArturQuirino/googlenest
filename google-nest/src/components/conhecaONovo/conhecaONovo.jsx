@@ -6,7 +6,6 @@ import { isPartOfElementInViewport } from '../../shared/utils';
 function adicionarClasseNoScroll(classeElemento) {
   var element = document.querySelector(classeElemento);
   function addClassOnScroll() {
-    debugger;
     if (isPartOfElementInViewport(element)) {
       element.classList.add('in-viewport');
     } else {
