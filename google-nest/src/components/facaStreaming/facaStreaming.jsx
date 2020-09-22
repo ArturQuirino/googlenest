@@ -52,9 +52,26 @@ function mudarOpacidadeEPosicaoNoScroll() {
   window.addEventListener('scroll', mudarOpacidade);
 }
 
+function adicionarClasseInViewportParte2() {
+  const element = document.querySelector('.faca-streaming__container-parte2');
+
+  function mudarOpacidadeETranslateY() {
+    const rect = element.getBoundingClientRect();
+    if (rect.top < window.innerHeight / 2) {
+      element.classList.add('in-viewport');
+    } else {
+      element.classList.remove('in-viewport');
+    }
+  }
+
+  window.addEventListener('load', mudarOpacidadeETranslateY);
+  window.addEventListener('scroll', mudarOpacidadeETranslateY);
+}
+
 class FacaStreaming extends Component {
   componentDidMount() {
     mudarOpacidadeEPosicaoNoScroll();
+    adicionarClasseInViewportParte2();
   }
   render() {
     return (
@@ -72,7 +89,29 @@ class FacaStreaming extends Component {
           <div style={{ height: '150vh' }}></div>
         </div>
 
-        <div className="faca-streaming__container-parte2">TESTE</div>
+        <div className="faca-streaming__container-parte2">
+          <span className="faca-streaming__parte2__titulo">
+            Use a voz para acessar as músicas e os conteúdos dos seus apps
+            favoritos.
+          </span>
+          <span className="faca-streaming__parte2__descricao">
+            Basta pedir para o Google Assistente. Ou fazer streaming do seu
+            smartphone para o Google Nest Mini.3
+          </span>
+          <button className="faca-streaming__parte2__botao">
+            Veja todos os apps e parceiros
+          </button>
+          <div className="faca-streaming__parte2__container-parceiros">
+            <div className="faca-streaming__parte2__parceiro">Youtube</div>
+            <div className="faca-streaming__parte2__parceiro">Spotify</div>
+            <div className="faca-streaming__parte2__parceiro">Chromecast</div>
+            <div className="faca-streaming__parte2__parceiro">Play Store</div>
+            <div className="faca-streaming__parte2__parceiro">Filmes</div>
+            <div className="faca-streaming__parte2__parceiro">Livros</div>
+            <div className="faca-streaming__parte2__parceiro">Arquivos</div>
+            <div className="faca-streaming__parte2__parceiro">Coisas</div>
+          </div>
+        </div>
         <div className="faca-streaming__container-parte3">TESTE</div>
       </section>
     );
