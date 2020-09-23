@@ -8,7 +8,6 @@ function mudarOpacidadeEPosicaoNoScroll() {
 
   function mudarOpacidade() {
     const rect = element.getBoundingClientRect();
-    console.log(rect.top);
     if (rect.top < window.innerHeight && rect.top > 0) {
       document.documentElement.style.setProperty('--str-cat1-opacity', '1');
       document.documentElement.style.setProperty('--str-cat2-opacity', '0');
