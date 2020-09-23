@@ -26,7 +26,9 @@ class ComandoDeVoz extends Component {
       <section className="comando-de-voz">
         <div className="comando-de-voz__tv-ligada"></div>
         <div className="comando-de-voz__tv-desligada"></div>
-        <div></div>
+        <div className="comando-de-voz__texto-diminua-as-luzes">
+          "Ok Google, diminua as luzes"
+        </div>
       </section>
     );
   }
