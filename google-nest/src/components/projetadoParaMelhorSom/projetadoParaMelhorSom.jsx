@@ -37,7 +37,7 @@ function mudarCorteNoScroll(classeElemento) {
     } else {
       document.documentElement.style.setProperty(
         '--clip1',
-        100 - ((window.innerHeight - rect.top) * 100) / window.innerHeight + '%'
+        90 - ((window.innerHeight - rect.top) * 100) / window.innerHeight + '%'
       );
     }
   }
