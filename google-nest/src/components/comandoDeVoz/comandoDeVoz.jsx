@@ -6,13 +6,16 @@ function mudarOpacidadeNoScroll() {
 
   function mudarOpacidade() {
     const rect = element.getBoundingClientRect();
-    if (rect.top <= 0.5 * window.innerHeight) {
+    if (
+      rect.top <= 0.5 * window.innerHeight &&
+      rect.top > -0.3 * window.innerHeight
+    ) {
       element.classList.add('in-viewport');
     } else {
       element.classList.remove('in-viewport');
     }
     console.log(rect.bottom);
-    if (rect.top < -0.5 * window.innerHeight) {
+    if (rect.top < -0.3 * window.innerHeight) {
       element.classList.add('in-viewport2');
     } else {
       element.classList.remove('in-viewport2');
