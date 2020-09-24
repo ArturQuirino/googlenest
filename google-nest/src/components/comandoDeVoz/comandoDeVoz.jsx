@@ -41,7 +41,25 @@ class ComandoDeVoz extends Component {
             "Ok Google, diminua as luzes"
           </div>
           <div className="comando-de-voz__texto-ligue-a-tv">
-            "Ok Google, ligue a TV"
+            <span className="comando-de-voz__texto-ligue-a-tv__texto1">
+              "Ok
+            </span>
+            <span className="comando-de-voz__texto-ligue-a-tv__texto2">
+              {' '}
+              Google,{' '}
+            </span>
+            <span className="comando-de-voz__texto-ligue-a-tv__texto3">
+              {' '}
+              ligue{' '}
+            </span>
+            <span className="comando-de-voz__texto-ligue-a-tv__texto4">
+              {' '}
+              a{' '}
+            </span>
+            <span className="comando-de-voz__texto-ligue-a-tv__texto5">
+              {' '}
+              TV"
+            </span>
           </div>
         </div>
         <div className="comando-de-voz__espaco-rolagem"></div>
