@@ -30,15 +30,18 @@ class ComandoDeVoz extends Component {
   render() {
     return (
       <section className="comando-de-voz">
-        <div className="comando-de-voz__fundo"></div>
-        <div className="comando-de-voz__tv-ligada"></div>
-        <div className="comando-de-voz__tv-desligada"></div>
-        <div className="comando-de-voz__texto-diminua-as-luzes">
-          "Ok Google, diminua as luzes"
+        <div className="comando-de-voz__container-principal">
+          <div className="comando-de-voz__fundo"></div>
+          <div className="comando-de-voz__tv-ligada"></div>
+          <div className="comando-de-voz__tv-desligada"></div>
+          <div className="comando-de-voz__texto-diminua-as-luzes">
+            "Ok Google, diminua as luzes"
+          </div>
+          <div className="comando-de-voz__texto-ligue-a-tv">
+            "Ok Google, ligue a TV"
+          </div>
         </div>
-        <div className="comando-de-voz__texto-ligue-a-tv">
-          "Ok Google, ligue a TV"
-        </div>
+        <div className="comando-de-voz__espaco-rolagem"></div>
       </section>
     );
   }
